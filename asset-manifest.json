@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/FoodWeb/static/css/main.f7036c6c.css",
+    "main.js": "/FoodWeb/static/js/main.32562a89.js",
+    "static/js/787.618a5204.chunk.js": "/FoodWeb/static/js/787.618a5204.chunk.js",
+    "static/media/menu1.jpeg": "/FoodWeb/static/media/menu1.57e061ec5d821906820c.jpeg",
+    "static/media/brownie.jpg": "/FoodWeb/static/media/brownie.83fd0cfee34ee6300292.jpg",
+    "static/media/pizzaa.jpg": "/FoodWeb/static/media/pizzaa.3ef142296312f7519a93.jpg",
+    "static/media/menu3.jpg": "/FoodWeb/static/media/menu3.f0f5b40c201d155b9141.jpg",
+    "static/media/about.jpg": "/FoodWeb/static/media/about.e0cd407bbadb3c531915.jpg",
+    "static/media/coffee.jpg": "/FoodWeb/static/media/coffee.d1828449aa364454027a.jpg",
+    "static/media/chick.jpg": "/FoodWeb/static/media/chick.906af87c39b3b7ae823c.jpg",
+    "static/media/menu6.avif": "/FoodWeb/static/media/menu6.f29fe354fd0b1c98f388.avif",
+    "static/media/menu4.avif": "/FoodWeb/static/media/menu4.405ed34daf1e3403d4ad.avif",
+    "static/media/menu2.jpg": "/FoodWeb/static/media/menu2.2aaca92286226fc77f2a.jpg",
+    "static/media/chicken.avif": "/FoodWeb/static/media/chicken.306826682f921dc042d3.avif",
+    "static/media/noodles.jpg": "/FoodWeb/static/media/noodles.645a2d183cdb88dd487d.jpg",
+    "static/media/icecream.jpg": "/FoodWeb/static/media/icecream.c0bfaca1550138f88af9.jpg",
+    "static/media/burger.jpg": "/FoodWeb/static/media/burger.25500efa2c877c6b00d0.jpg",
+    "static/media/menu5.jpg": "/FoodWeb/static/media/menu5.92e21934503b3ccb1a2c.jpg",
+    "static/media/fries.avif": "/FoodWeb/static/media/fries.288afc20b5480cd6cbb1.avif",
+    "static/media/logo.avif": "/FoodWeb/static/media/logo.c400ec3085d082c721ce.avif",
+    "index.html": "/FoodWeb/index.html",
+    "main.f7036c6c.css.map": "/FoodWeb/static/css/main.f7036c6c.css.map",
+    "main.32562a89.js.map": "/FoodWeb/static/js/main.32562a89.js.map",
+    "787.618a5204.chunk.js.map": "/FoodWeb/static/js/787.618a5204.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7036c6c.css",
+    "static/js/main.32562a89.js"
+  ]
+}
