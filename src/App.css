@@ -1,0 +1,86 @@
+.navbar{
+  background-color: #e3f2fd;
+ }
+ *{
+  padding: 0;
+  margin: 0;
+ }
+
+ .logoHome{
+  height: 120px;
+  width: 120px;
+  float: left;
+  padding: 1px;
+  margin-left: 5vw;
+ }
+.btnH{
+  margin: 2vh;
+  float: right;
+  margin-top: 9vh;
+  color: black;
+  font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: medium;
+  border-radius: 0%;
+}
+.signupbtn{
+  margin-right: 5vw;
+  margin: 2vh;
+  float: right;
+  margin-top: 9vh;
+  color: black;
+  font-family: sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size: medium;
+  border-radius:0cm;
+  background-color: orange;
+}
+.btnH:hover{
+  color: white;
+  background-color: green;
+}
+.writeup{
+  margin: 15vh;
+  margin-top: 5vh;
+  font-size: x-large;
+}
+.para{
+  font-size: medium;
+}
+.headingH{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 15vh;
+}
+.image{
+  height: 120vh;
+  width: 100vw;
+}
+.footer{
+  width:  100vw;
+  padding: 5vh;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child{
+  flex: 1 1 700px;
+}
+
+@media screen and (max-width: 1400px) {
+  .child{
+    width:100vw;
+    height: auto;
+  }
+  .child:last-child{
+    align-items: center;
+    padding-left: 25vw;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width:700px) {
+  .child:first-child{
+    width: 30vw;
+  }
+  
+}  

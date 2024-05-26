@@ -1,0 +1,90 @@
+.homePage{
+    padding: 2rem 9%;
+} 
+.homePage .HomeSilder .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 100vh;
+    
+    padding-top: 9rem;
+}
+.homePage:nth-child(even){
+    background: #eee;
+}
+.homePage .HomeSilder .slide .HomeContent{
+    flex: 1 1 45rem;
+}
+
+.homePage .HomeSilder .slide .HomeImage{
+    flex: 1 1 45rem;
+}
+.homePage .HomeSilder .slide .HomeImage img{
+    width: 100%;
+}
+.homePage .HomeSilder .slide .HomeContent span{
+    color: var(--green);
+    font-size: 2.5rem;
+}
+.homePage .HomeSilder .slide .HomeContent p{
+    font-size: 2rem;
+}
+.homePage .HomeSilder .slide .HomeContent h3{
+    color: var(--black);
+    font-size: 7rem;
+    padding: .5rem 0;
+}
+.btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+.btn1:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
+@media (max-width:900px){
+    .homePage .HomeSilder .slide .HomeContent span{
+        font-size: 1.2rem;
+    }
+    .homePage .HomeSilder .slide .HomeContent h3{
+       
+        font-size: 4rem;
+    }
+    .HomeBtn{
+        font-size: 1.2rem;
+    }
+  
+   
+}
+
+@media (max-width:500px){
+    .homePage .HomeSilder .slide .HomeContent span{
+        font-size: 1rem;
+    }
+    .homePage .HomeSilder .slide .HomeContent h3{
+       
+        font-size: 3rem;
+    }
+    .HomeBtn{
+        font-size: .7rem;
+    }
+    .homePage .HomeSilder .slide .HomeImage img{
+        margin-top: -15rem;
+    }
+    
+}
+
+@media (max-width:400px){
+    .homePage .HomeSilder .slide .HomeImage img{
+        margin-top: -20rem;
+    }
+    
+}

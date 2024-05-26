@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-orders{
+    border: 2px solid black;
+    padding: 10vh;
+    height: 40vh;
+    width: 30vw;
+    margin-top: 20vh;
+    margin-left: 30vw;
+}
+.in{
+    height: 6vh;
+    width: 40vh;
+    margin-top: 2%;
+}
+.in-img{
+    padding: 2% 0%;
+}
+.btn-orders{
+    border-radius: 10px;
+    background-color: #f44336;
+}
+
+.btn-orders:hover{
+    background-color: rgb(1, 105, 1);
+    color: white;
+}

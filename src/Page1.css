@@ -1,0 +1,81 @@
+/* .pizza
+{
+    margin-left: 100vh;
+    margin-top: 10vh;
+    width: 400px;
+    height: 400px;
+    animation: rotation 4s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  } */
+
+  /* Navbar */
+ .container-fluid{
+  height: 10vh;
+ }
+ .d-flex{
+  height: 5vh;
+ }
+ #search{
+  height: 5vh;
+  margin-top: 0vh;
+ }
+ .logo{
+  height: 10vh;
+  width: 6vw;
+  margin-left: 2vw;
+ }
+
+
+
+
+ /* Slider */
+
+.sidenav {
+  height: 90%;
+  font-family: "Lato", sans-serif;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  margin-top: 12vh;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 241, 202);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav ul li {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: darkblue;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav ul li:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

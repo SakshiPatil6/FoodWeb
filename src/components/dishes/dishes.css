@@ -1,0 +1,94 @@
+.subheading{
+    text-align: center;
+    color: var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    /* margin-bottom: -10rem; */
+}
+.dishes{
+    background-color: #eee;
+}
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    text-transform: uppercase; 
+  
+}
+.dishes .Dishes-box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34rem,1fr));
+    gap: 1.5rem;
+    padding: 6rem;
+}
+.dishes .Dishes-box-container .box{
+    padding: 2.5rem;
+    background: #fff;
+    border-radius: .5rem;
+    border: .1px solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.dishes .Dishes-box-container .box .imagedish{
+    height: 17rem;
+    margin: 1rem 0;
+}
+.dishes .Dishes-box-container .box .heart,
+.dishes .Dishes-box-container .box .eye{
+    position: absolute;
+    top: 1.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+.dishes .Dishes-box-container .box .heart{
+    right: -15rem;
+}
+.dishes .Dishes-box-container .box .eye{
+    left: -15rem;
+}
+
+.dishes .Dishes-box-container .box .heart:hover,
+.dishes .Dishes-box-container .box .eye:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+
+.dishes .Dishes-box-container .box:hover .heart{
+    right: 1.5rem;
+}
+.dishes .Dishes-box-container .box:hover .eye{
+    left: 1.5rem;
+}
+
+.dishes .Dishes-box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+.dishes .Dishes-box-container .box .stars{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--green);
+}
+.dishes .Dishes-box-container .box span{
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+@media (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+    .dishes .Dishes-box-container .box .imagedish{
+        height: auto;
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+.about .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
+.about .row .imageAbout{
+    flex: 1 1 45rem;
+}
+
+.about .row .imageAbout img{
+    width: 100%;
+}
+.about .row .contentAbout{
+    flex: 1 1 45rem;
+}
+.about .row .contentAbout h3{
+    color: var(--black);
+    font-size: 4rem;
+    padding: .5rem 0;
+}
+.about .row .contentAbout p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    line-height: 2;
+}
+.about .row .contentAbout .icons-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-top: .5rem;
+}
+.about .row .contentAbout .icons-container .iconsAbout{
+    background: #eee;
+    border-radius: .5rem;
+    border: 1rem solid rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1 1 17rem;
+    padding: 1.5rem 1rem
+} 
+
+.about .row .contentAbout .icons-container .iconsAbout .i{
+    font-size: 2.5rem;
+    color: var(--green);
+}
+
+.about .row .contentAbout .icons-container .iconsAbout span{
+    font-size: 1.5rem;
+    color: var(--black);
+}
